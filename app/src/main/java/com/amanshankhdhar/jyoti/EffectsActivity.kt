@@ -2,8 +2,8 @@
 package com.amanshankhdhar.jyoti
 
 import android.app.Activity
+import android.content.Intent
 import android.os.Bundle
-import android.view.View
 import android.widget.Button
 import android.widget.SeekBar
 import android.widget.TextView
@@ -15,16 +15,14 @@ class EffectsActivity : Activity() {
         val label = findViewById<TextView>(R.id.hzLabel)
         val seek = findViewById<SeekBar>(R.id.seekHz)
         seek.setOnSeekBarChangeListener(object : SeekBar.OnSeekBarChangeListener {
-            override fun onProgressChanged(s: SeekBar?, p: Int, from: Boolean) {
-                label.text = "Strobe: ${p + 1} Hz"
-            }
+            override fun onProgressChanged(s: SeekBar?, p: Int, from: Boolean) { label.text = "Strobe: ${p + 1} Hz" }
             override fun onStartTrackingTouch(s: SeekBar?) {}
             override fun onStopTrackingTouch(s: SeekBar?) {}
         })
-        findViewById<Button>(R.id.btnStrobe).setOnClickListener {
-            TorchManager.startStrobe(this, seek.progress + 1)
-        }
+        findViewById<Button>(R.id.btnStrobe).setOnClickListener { TorchManager.startStrobe(this, seek.progress + 1) }
         findViewById<Button>(R.id.btnSOS).setOnClickListener { TorchManager.startSOS(this) }
         findViewById<Button>(R.id.btnStop).setOnClickListener { TorchManager.forceOff(this) }
+        findViewById<Button>(R.id.btnMorse).setOnClickListener { startActivity(Intent(this, TextToMorseActivity::class.java)) }
+        findViewById<Button>(R.id.btnPolice).setOnClickListener { startActivity(Intent(this, PoliceScreenActivity::class.java)) }
     }
 }

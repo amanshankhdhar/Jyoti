@@ -1,1 +1,5 @@
-<resources><string name="app_name">Jyoti</string></resources>
+<resources>
+    <string name="app_name">Jyoti</string>
+    <!-- CHANGE THIS to your actual UPI ID before Block 5! -->
+    <string name="upi_id">amansankhdhar-1@oksbi</string> 
+</resources>

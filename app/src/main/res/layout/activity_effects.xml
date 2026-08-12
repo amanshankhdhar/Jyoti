@@ -1,19 +1,23 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
-    android:background="@color/black" android:padding="24dp">
-    <TextView android:text="EFFECTS" android:textColor="@color/saffron" android:textSize="28sp"
-        android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    android:background="#000000" android:padding="24dp">
+    <TextView android:text="EFFECTS" android:textColor="#FF9933" android:textSize="28sp"
+        android:fontFamily="sans-serif-medium" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
     <TextView android:id="@+id/hzLabel" android:text="Strobe: 2 Hz" android:textColor="#FFFFFF"
         android:layout_marginTop="24dp" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
-    <SeekBar android:id="@+id/seekHz" android:max="9" android:progress="1" android:layout_marginTop="8dp"
-        android:layout_width="match_parent" android:layout_height="wrap_content"/>
-    <Button android:id="@+id/btnStrobe" android:text="START STROBE" android:layout_marginTop="24dp"
-        android:layout_width="match_parent" android:layout_height="wrap_content"/>
-    <Button android:id="@+id/btnSOS" android:text="SOS DISTRESS SIGNAL" android:layout_marginTop="8dp"
-        android:layout_width="match_parent" android:layout_height="wrap_content"/>
-    <Button android:id="@+id/btnStop" android:text="STOP" android:layout_marginTop="8dp"
-        android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <SeekBar android:id="@+id/seekHz" android:max="9" android:progress="1" android:progressTint="#FF9933"
+        android:layout_marginTop="8dp" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <Button android:id="@+id/btnStrobe" android:text="START STROBE" android:backgroundTint="#1E1E1E" android:textColor="#FFFFFF"
+        android:layout_marginTop="24dp" android:layout_width="match_parent" android:layout_height="56dp"/>
+    <Button android:id="@+id/btnSOS" android:text="SOS DISTRESS SIGNAL" android:backgroundTint="#1E1E1E" android:textColor="#FFFFFF"
+        android:layout_marginTop="8dp" android:layout_width="match_parent" android:layout_height="56dp"/>
+    <Button android:id="@+id/btnMorse" android:text="TEXT-TO-MORSE" android:backgroundTint="#1E1E1E" android:textColor="#FFFFFF"
+        android:layout_marginTop="8dp" android:layout_width="match_parent" android:layout_height="56dp"/>
+    <Button android:id="@+id/btnPolice" android:text="POLICE SIREN SCREEN" android:backgroundTint="#1E1E1E" android:textColor="#FFFFFF"
+        android:layout_marginTop="8dp" android:layout_width="match_parent" android:layout_height="56dp"/>
+    <Button android:id="@+id/btnStop" android:text="STOP" android:backgroundTint="#FF5252" android:textColor="#FFFFFF"
+        android:textStyle="bold" android:layout_marginTop="8dp" android:layout_width="match_parent" android:layout_height="56dp"/>
     <TextView android:text="⚠ Photosensitivity / epilepsy warning: rapid flashing light can trigger seizures. Use responsibly."
-        android:textColor="@color/red" android:layout_marginTop="24dp"
+        android:textColor="#FF5252" android:layout_marginTop="24dp"
         android:layout_width="match_parent" android:layout_height="wrap_content"/>
 </LinearLayout>
