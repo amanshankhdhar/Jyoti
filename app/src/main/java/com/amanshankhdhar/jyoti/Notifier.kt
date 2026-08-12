@@ -23,7 +23,7 @@ object Notifier {
             android.content.Intent(c, TorchOffReceiver::class.java), flags)
         val b = if (Build.VERSION.SDK_INT >= 26) Notification.Builder(c, "jyoti")
                 else @Suppress("DEPRECATION") Notification.Builder(c)
-        nm.notify(ID, b.setSmallIcon(R.drawable.ic_tile)
+        nm.notify(ID, b.setSmallIcon(R.drawable.ic_tile_off)
             .setContentTitle("🪔 Jyoti torch is ON").setContentText("Tap OFF to extinguish")
             .addAction(android.R.drawable.ic_lock_power_off, "OFF", off)
             .setOngoing(true).build())

@@ -39,7 +39,7 @@ class SettingsActivity : Activity() {
         }
         swDark.setOnCheckedChangeListener { _, on -> Prefs.setB(this, "dark", on); syncService() }
 
-        findViewById<TextView>(R.id.txtVer).text = "Jyoti v2.0.0 — by Aman Shankhdhar Ji"
+        findViewById<TextView>(R.id.txtVer).text = "Jyoti v2.0.5 — by Aman Shankhdhar Ji"
     }
 
     private fun syncService() {
