@@ -1,0 +1,13 @@
+com.amanshankhdhar.jyoti:style/Theme.Jyoti = 0x7f060000
+com.amanshankhdhar.jyoti:string/app_name = 0x7f050000
+com.amanshankhdhar.jyoti:id/linkTerms = 0x7f020005
+com.amanshankhdhar.jyoti:id/linkAbout = 0x7f020003
+com.amanshankhdhar.jyoti:layout/activity_main = 0x7f030000
+com.amanshankhdhar.jyoti:id/linkPrivacy = 0x7f020004
+com.amanshankhdhar.jyoti:id/status = 0x7f020006
+com.amanshankhdhar.jyoti:id/btnTorch = 0x7f020002
+com.amanshankhdhar.jyoti:id/btnScreen = 0x7f020000
+com.amanshankhdhar.jyoti:id/btnTile = 0x7f020001
+com.amanshankhdhar.jyoti:mipmap/ic_launcher = 0x7f040000
+com.amanshankhdhar.jyoti:drawable/ic_tile = 0x7f010001
+com.amanshankhdhar.jyoti:drawable/ic_launcher = 0x7f010000

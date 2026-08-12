@@ -1,0 +1,97 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /data/data/com.termux/files/home/jyoti/app/src/main/AndroidManifest.xml:2:1-24:12
+INJECTED from /data/data/com.termux/files/home/jyoti/app/src/main/AndroidManifest.xml:2:1-24:12
+INJECTED from /data/data/com.termux/files/home/jyoti/app/src/main/AndroidManifest.xml:2:1-24:12
+INJECTED from /data/data/com.termux/files/home/jyoti/app/src/main/AndroidManifest.xml:2:1-24:12
+	package
+		INJECTED from /data/data/com.termux/files/home/jyoti/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /data/data/com.termux/files/home/jyoti/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /data/data/com.termux/files/home/jyoti/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /data/data/com.termux/files/home/jyoti/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.CAMERA
+ADDED from /data/data/com.termux/files/home/jyoti/app/src/main/AndroidManifest.xml:3:5-65
+	android:name
+		ADDED from /data/data/com.termux/files/home/jyoti/app/src/main/AndroidManifest.xml:3:22-62
+uses-feature#android.hardware.camera.flash
+ADDED from /data/data/com.termux/files/home/jyoti/app/src/main/AndroidManifest.xml:4:5-91
+	android:required
+		ADDED from /data/data/com.termux/files/home/jyoti/app/src/main/AndroidManifest.xml:4:64-88
+	android:name
+		ADDED from /data/data/com.termux/files/home/jyoti/app/src/main/AndroidManifest.xml:4:19-63
+application
+ADDED from /data/data/com.termux/files/home/jyoti/app/src/main/AndroidManifest.xml:5:5-23:19
+INJECTED from /data/data/com.termux/files/home/jyoti/app/src/main/AndroidManifest.xml:5:5-23:19
+	android:extractNativeLibs
+		INJECTED from /data/data/com.termux/files/home/jyoti/app/src/main/AndroidManifest.xml
+	android:label
+		ADDED from /data/data/com.termux/files/home/jyoti/app/src/main/AndroidManifest.xml:5:18-50
+	android:icon
+		ADDED from /data/data/com.termux/files/home/jyoti/app/src/main/AndroidManifest.xml:5:51-85
+	android:allowBackup
+		ADDED from /data/data/com.termux/files/home/jyoti/app/src/main/AndroidManifest.xml:6:44-70
+	android:theme
+		ADDED from /data/data/com.termux/files/home/jyoti/app/src/main/AndroidManifest.xml:6:9-43
+activity#com.amanshankhdhar.jyoti.MainActivity
+ADDED from /data/data/com.termux/files/home/jyoti/app/src/main/AndroidManifest.xml:7:9-12:20
+	android:exported
+		ADDED from /data/data/com.termux/files/home/jyoti/app/src/main/AndroidManifest.xml:7:48-71
+	android:name
+		ADDED from /data/data/com.termux/files/home/jyoti/app/src/main/AndroidManifest.xml:7:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /data/data/com.termux/files/home/jyoti/app/src/main/AndroidManifest.xml:8:13-11:29
+action#android.intent.action.MAIN
+ADDED from /data/data/com.termux/files/home/jyoti/app/src/main/AndroidManifest.xml:9:17-69
+	android:name
+		ADDED from /data/data/com.termux/files/home/jyoti/app/src/main/AndroidManifest.xml:9:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /data/data/com.termux/files/home/jyoti/app/src/main/AndroidManifest.xml:10:17-77
+	android:name
+		ADDED from /data/data/com.termux/files/home/jyoti/app/src/main/AndroidManifest.xml:10:27-74
+activity#com.amanshankhdhar.jyoti.LegalActivity
+ADDED from /data/data/com.termux/files/home/jyoti/app/src/main/AndroidManifest.xml:13:9-76
+	android:exported
+		ADDED from /data/data/com.termux/files/home/jyoti/app/src/main/AndroidManifest.xml:13:49-73
+	android:name
+		ADDED from /data/data/com.termux/files/home/jyoti/app/src/main/AndroidManifest.xml:13:19-48
+activity#com.amanshankhdhar.jyoti.ScreenLightActivity
+ADDED from /data/data/com.termux/files/home/jyoti/app/src/main/AndroidManifest.xml:14:9-82
+	android:exported
+		ADDED from /data/data/com.termux/files/home/jyoti/app/src/main/AndroidManifest.xml:14:55-79
+	android:name
+		ADDED from /data/data/com.termux/files/home/jyoti/app/src/main/AndroidManifest.xml:14:19-54
+service#com.amanshankhdhar.jyoti.JyotiTileService
+ADDED from /data/data/com.termux/files/home/jyoti/app/src/main/AndroidManifest.xml:15:9-22:19
+	android:label
+		ADDED from /data/data/com.termux/files/home/jyoti/app/src/main/AndroidManifest.xml:16:46-78
+	android:exported
+		ADDED from /data/data/com.termux/files/home/jyoti/app/src/main/AndroidManifest.xml:15:51-74
+	android:permission
+		ADDED from /data/data/com.termux/files/home/jyoti/app/src/main/AndroidManifest.xml:17:13-77
+	android:icon
+		ADDED from /data/data/com.termux/files/home/jyoti/app/src/main/AndroidManifest.xml:16:13-45
+	android:name
+		ADDED from /data/data/com.termux/files/home/jyoti/app/src/main/AndroidManifest.xml:15:18-50
+intent-filter#action:name:android.service.quicksettings.action.QSTILE
+ADDED from /data/data/com.termux/files/home/jyoti/app/src/main/AndroidManifest.xml:18:13-20:29
+action#android.service.quicksettings.action.QSTILE
+ADDED from /data/data/com.termux/files/home/jyoti/app/src/main/AndroidManifest.xml:19:17-86
+	android:name
+		ADDED from /data/data/com.termux/files/home/jyoti/app/src/main/AndroidManifest.xml:19:25-83
+meta-data#android.service.quicksettings.ACTIVE_TILE
+ADDED from /data/data/com.termux/files/home/jyoti/app/src/main/AndroidManifest.xml:21:13-104
+	android:value
+		ADDED from /data/data/com.termux/files/home/jyoti/app/src/main/AndroidManifest.xml:21:81-101
+	android:name
+		ADDED from /data/data/com.termux/files/home/jyoti/app/src/main/AndroidManifest.xml:21:24-80
+uses-sdk
+INJECTED from /data/data/com.termux/files/home/jyoti/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /data/data/com.termux/files/home/jyoti/app/src/main/AndroidManifest.xml
+INJECTED from /data/data/com.termux/files/home/jyoti/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /data/data/com.termux/files/home/jyoti/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /data/data/com.termux/files/home/jyoti/app/src/main/AndroidManifest.xml

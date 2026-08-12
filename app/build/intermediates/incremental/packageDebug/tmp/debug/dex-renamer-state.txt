@@ -1,0 +1,10 @@
+#Wed Aug 12 01:03:19 GMT 2026
+base.2=/data/data/com.termux/files/home/jyoti/app/build/intermediates/dex/debug/mergeProjectDexDebug/5/classes.dex
+path.2=5/classes.dex
+base.1=/data/data/com.termux/files/home/jyoti/app/build/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex
+path.1=0/classes.dex
+base.0=/data/data/com.termux/files/home/jyoti/app/build/intermediates/dex/debug/mergeExtDexDebug/classes.dex
+renamed.2=classes3.dex
+renamed.1=classes2.dex
+renamed.0=classes.dex
+path.0=classes.dex

@@ -1,0 +1,92 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.amanshankhdhar.jyoti"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-permission android:name="android.permission.CAMERA" />
+11-->/data/data/com.termux/files/home/jyoti/app/src/main/AndroidManifest.xml:3:5-65
+11-->/data/data/com.termux/files/home/jyoti/app/src/main/AndroidManifest.xml:3:22-62
+12
+13    <uses-feature
+13-->/data/data/com.termux/files/home/jyoti/app/src/main/AndroidManifest.xml:4:5-91
+14        android:name="android.hardware.camera.flash"
+14-->/data/data/com.termux/files/home/jyoti/app/src/main/AndroidManifest.xml:4:19-63
+15        android:required="false" />
+15-->/data/data/com.termux/files/home/jyoti/app/src/main/AndroidManifest.xml:4:64-88
+16
+17    <application
+17-->/data/data/com.termux/files/home/jyoti/app/src/main/AndroidManifest.xml:5:5-23:19
+18        android:allowBackup="true"
+18-->/data/data/com.termux/files/home/jyoti/app/src/main/AndroidManifest.xml:6:44-70
+19        android:debuggable="true"
+20        android:extractNativeLibs="true"
+21        android:icon="@mipmap/ic_launcher"
+21-->/data/data/com.termux/files/home/jyoti/app/src/main/AndroidManifest.xml:5:51-85
+22        android:label="@string/app_name"
+22-->/data/data/com.termux/files/home/jyoti/app/src/main/AndroidManifest.xml:5:18-50
+23        android:theme="@style/Theme.Jyoti" >
+23-->/data/data/com.termux/files/home/jyoti/app/src/main/AndroidManifest.xml:6:9-43
+24        <activity
+24-->/data/data/com.termux/files/home/jyoti/app/src/main/AndroidManifest.xml:7:9-12:20
+25            android:name="com.amanshankhdhar.jyoti.MainActivity"
+25-->/data/data/com.termux/files/home/jyoti/app/src/main/AndroidManifest.xml:7:19-47
+26            android:exported="true" >
+26-->/data/data/com.termux/files/home/jyoti/app/src/main/AndroidManifest.xml:7:48-71
+27            <intent-filter>
+27-->/data/data/com.termux/files/home/jyoti/app/src/main/AndroidManifest.xml:8:13-11:29
+28                <action android:name="android.intent.action.MAIN" />
+28-->/data/data/com.termux/files/home/jyoti/app/src/main/AndroidManifest.xml:9:17-69
+28-->/data/data/com.termux/files/home/jyoti/app/src/main/AndroidManifest.xml:9:25-66
+29
+30                <category android:name="android.intent.category.LAUNCHER" />
+30-->/data/data/com.termux/files/home/jyoti/app/src/main/AndroidManifest.xml:10:17-77
+30-->/data/data/com.termux/files/home/jyoti/app/src/main/AndroidManifest.xml:10:27-74
+31            </intent-filter>
+32        </activity>
+33        <activity
+33-->/data/data/com.termux/files/home/jyoti/app/src/main/AndroidManifest.xml:13:9-76
+34            android:name="com.amanshankhdhar.jyoti.LegalActivity"
+34-->/data/data/com.termux/files/home/jyoti/app/src/main/AndroidManifest.xml:13:19-48
+35            android:exported="false" />
+35-->/data/data/com.termux/files/home/jyoti/app/src/main/AndroidManifest.xml:13:49-73
+36        <activity
+36-->/data/data/com.termux/files/home/jyoti/app/src/main/AndroidManifest.xml:14:9-82
+37            android:name="com.amanshankhdhar.jyoti.ScreenLightActivity"
+37-->/data/data/com.termux/files/home/jyoti/app/src/main/AndroidManifest.xml:14:19-54
+38            android:exported="false" />
+38-->/data/data/com.termux/files/home/jyoti/app/src/main/AndroidManifest.xml:14:55-79
+39
+40        <service
+40-->/data/data/com.termux/files/home/jyoti/app/src/main/AndroidManifest.xml:15:9-22:19
+41            android:name="com.amanshankhdhar.jyoti.JyotiTileService"
+41-->/data/data/com.termux/files/home/jyoti/app/src/main/AndroidManifest.xml:15:18-50
+42            android:exported="true"
+42-->/data/data/com.termux/files/home/jyoti/app/src/main/AndroidManifest.xml:15:51-74
+43            android:icon="@drawable/ic_tile"
+43-->/data/data/com.termux/files/home/jyoti/app/src/main/AndroidManifest.xml:16:13-45
+44            android:label="@string/app_name"
+44-->/data/data/com.termux/files/home/jyoti/app/src/main/AndroidManifest.xml:16:46-78
+45            android:permission="android.permission.BIND_QUICK_SETTINGS_TILE" >
+45-->/data/data/com.termux/files/home/jyoti/app/src/main/AndroidManifest.xml:17:13-77
+46            <intent-filter>
+46-->/data/data/com.termux/files/home/jyoti/app/src/main/AndroidManifest.xml:18:13-20:29
+47                <action android:name="android.service.quicksettings.action.QSTILE" />
+47-->/data/data/com.termux/files/home/jyoti/app/src/main/AndroidManifest.xml:19:17-86
+47-->/data/data/com.termux/files/home/jyoti/app/src/main/AndroidManifest.xml:19:25-83
+48            </intent-filter>
+49
+50            <meta-data
+50-->/data/data/com.termux/files/home/jyoti/app/src/main/AndroidManifest.xml:21:13-104
+51                android:name="android.service.quicksettings.ACTIVE_TILE"
+51-->/data/data/com.termux/files/home/jyoti/app/src/main/AndroidManifest.xml:21:24-80
+52                android:value="true" />
+52-->/data/data/com.termux/files/home/jyoti/app/src/main/AndroidManifest.xml:21:81-101
+53        </service>
+54    </application>
+55
+56</manifest>

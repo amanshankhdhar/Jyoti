@@ -1,0 +1,67 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.amanshankhdhar.jyoti.app-debug-4:/values_values.arsc.flat",
+            "map": [
+                {
+                    "source": "/data/data/com.termux/files/home/jyoti/app/src/main/res/values/strings.xml",
+                    "from": {
+                        "startLines": "0",
+                        "startColumns": "11",
+                        "startOffsets": "11",
+                        "endColumns": "49",
+                        "endOffsets": "49"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "42",
+                        "endOffsets": "93"
+                    }
+                },
+                {
+                    "source": "/data/data/com.termux/files/home/jyoti/app/src/main/res/values/themes.xml",
+                    "from": {
+                        "startLines": "1",
+                        "startColumns": "4",
+                        "startOffsets": "16",
+                        "endLines": "6",
+                        "endColumns": "12",
+                        "endOffsets": "332"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "98",
+                        "endLines": "8",
+                        "endColumns": "12",
+                        "endOffsets": "414"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "com.amanshankhdhar.jyoti.app-debug-4:/values-hi_values-hi.arsc.flat",
+            "map": [
+                {
+                    "source": "/data/data/com.termux/files/home/jyoti/app/src/main/res/values-hi/strings.xml",
+                    "from": {
+                        "startLines": "0",
+                        "startColumns": "11",
+                        "startOffsets": "11",
+                        "endColumns": "50",
+                        "endOffsets": "50"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "43",
+                        "endOffsets": "94"
+                    }
+                }
+            ]
+        }
+    ]
+}
