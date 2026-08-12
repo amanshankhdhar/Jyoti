@@ -1,0 +1,7 @@
+<resources>
+    <color name="black">#000000</color>
+    <color name="saffron">#FF9933</color>
+    <color name="amber">#FFC107</color>
+    <color name="panel">#1E1E1E</color>
+    <color name="red">#FF5252</color>
+</resources>

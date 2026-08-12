@@ -1,0 +1,19 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@color/black" android:padding="24dp">
+    <TextView android:text="EFFECTS" android:textColor="@color/saffron" android:textSize="28sp"
+        android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    <TextView android:id="@+id/hzLabel" android:text="Strobe: 2 Hz" android:textColor="#FFFFFF"
+        android:layout_marginTop="24dp" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    <SeekBar android:id="@+id/seekHz" android:max="9" android:progress="1" android:layout_marginTop="8dp"
+        android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <Button android:id="@+id/btnStrobe" android:text="START STROBE" android:layout_marginTop="24dp"
+        android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <Button android:id="@+id/btnSOS" android:text="SOS DISTRESS SIGNAL" android:layout_marginTop="8dp"
+        android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <Button android:id="@+id/btnStop" android:text="STOP" android:layout_marginTop="8dp"
+        android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <TextView android:text="⚠ Photosensitivity / epilepsy warning: rapid flashing light can trigger seizures. Use responsibly."
+        android:textColor="@color/red" android:layout_marginTop="24dp"
+        android:layout_width="match_parent" android:layout_height="wrap_content"/>
+</LinearLayout>

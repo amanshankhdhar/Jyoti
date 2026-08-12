@@ -1,0 +1,4 @@
+<resources><string-array name="timer_entries">
+    <item>Auto-off: Off</item><item>Auto-off: 1 min</item><item>Auto-off: 5 min</item>
+    <item>Auto-off: 10 min</item><item>Auto-off: 30 min</item>
+</string-array></resources>

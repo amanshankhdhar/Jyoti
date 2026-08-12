@@ -7,11 +7,14 @@ import android.widget.Toast
 
 class JyotiTileService : TileService() {
     override fun onClick() {
-        when (TorchManager.toggle(this)) {
-            TorchResult.ON  -> Toast.makeText(this, "🪔 Jyoti ON", Toast.LENGTH_SHORT).show()
-            TorchResult.OFF -> Toast.makeText(this, "Jyoti OFF", Toast.LENGTH_SHORT).show()
-            TorchResult.BLOCKED -> Toast.makeText(this, "System blocked torch — open Jyoti once", Toast.LENGTH_LONG).show()
-            else -> Toast.makeText(this, "No torch hardware — use Screen Light in app", Toast.LENGTH_LONG).show()
+        if (TorchManager.mode != "NORMAL") {
+            TorchManager.forceOff(this) // Stop strobe/SOS if active
+        } else {
+            when (TorchManager.toggle(this)) {
+                TorchResult.BLOCKED -> Toast.makeText(this, "Open Jyoti to grant permission", Toast.LENGTH_LONG).show()
+                TorchResult.NO_HARDWARE -> Toast.makeText(this, "No torch hardware", Toast.LENGTH_SHORT).show()
+                else -> {}
+            }
         }
         refresh()
     }
@@ -21,6 +24,12 @@ class JyotiTileService : TileService() {
     private fun refresh() {
         qsTile?.let {
             it.state = if (TorchManager.isOn) Tile.STATE_ACTIVE else Tile.STATE_INACTIVE
+            it.subtitle = when {
+                TorchManager.mode == "STROBE" -> "STROBE"
+                TorchManager.mode == "SOS" -> "SOS"
+                TorchManager.isOn -> "ON"
+                else -> null
+            }
             it.updateTile()
         }
     }

@@ -1,0 +1,21 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root" android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#FFFFFF">
+    <LinearLayout android:id="@+id/controls" android:orientation="vertical" android:layout_gravity="bottom"
+        android:background="#88000000" android:padding="16dp"
+        android:layout_width="match_parent" android:layout_height="wrap_content">
+        <SeekBar android:id="@+id/seekBright" android:progress="100"
+            android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <LinearLayout android:orientation="horizontal" android:layout_marginTop="12dp"
+            android:layout_width="match_parent" android:layout_height="wrap_content">
+            <Button android:id="@+id/cWhite" android:text="W" android:layout_weight="1"
+                android:layout_width="0dp" android:layout_height="48dp"/>
+            <Button android:id="@+id/cRed" android:text="R" android:layout_weight="1"
+                android:layout_width="0dp" android:layout_height="48dp"/>
+            <Button android:id="@+id/cWarm" android:text="Y" android:layout_weight="1"
+                android:layout_width="0dp" android:layout_height="48dp"/>
+            <Button android:id="@+id/cAmber" android:text="A" android:layout_weight="1"
+                android:layout_width="0dp" android:layout_height="48dp"/>
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>
