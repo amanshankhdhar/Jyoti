@@ -1,7 +1,0 @@
-com.amanshankhdhar.jyoti.app-pngs-0 /data/data/com.termux/files/home/jyoti/app/build/generated/res/pngs/debug
-com.amanshankhdhar.jyoti.app-resValues-1 /data/data/com.termux/files/home/jyoti/app/build/generated/res/resValues/debug
-com.amanshankhdhar.jyoti.app-packageDebugResources-2 /data/data/com.termux/files/home/jyoti/app/build/intermediates/incremental/debug/packageDebugResources/merged.dir
-com.amanshankhdhar.jyoti.app-packageDebugResources-3 /data/data/com.termux/files/home/jyoti/app/build/intermediates/incremental/debug/packageDebugResources/stripped.dir
-com.amanshankhdhar.jyoti.app-debug-4 /data/data/com.termux/files/home/jyoti/app/build/intermediates/merged_res/debug/mergeDebugResources
-com.amanshankhdhar.jyoti.app-debug-5 /data/data/com.termux/files/home/jyoti/app/src/debug/res
-com.amanshankhdhar.jyoti.app-main-6 /data/data/com.termux/files/home/jyoti/app/src/main/res
